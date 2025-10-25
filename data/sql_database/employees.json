@@ -1,0 +1,23 @@
+[
+  {
+    "employee_id": "E101",
+    "name": "Alice",
+    "role": "manager",
+    "joining_date": "2023-05-12",
+    "team": ["A201", "A202"]
+  },
+  {
+    "employee_id": "A201",
+    "name": "Bob",
+    "role": "agent",
+    "manager_id": "E101",
+    "joining_date": "2023-06-01"
+  },
+  {
+    "employee_id": "A202",
+    "name": "Charlie",
+    "role": "agent",
+    "manager_id": "E101",
+    "joining_date": "2023-06-05"
+  }
+]

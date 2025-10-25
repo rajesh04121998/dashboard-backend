@@ -1,0 +1,23 @@
+[
+  {
+    "lead_id": "L001",
+    "assigned_by": "E101",
+    "assigned_to": "A201",
+    "assigned_date": "2025-10-01",
+    "status": "assigned"
+  },
+  {
+    "lead_id": "L002",
+    "assigned_by": "E101",
+    "assigned_to": "A202",
+    "assigned_date": "2025-10-02",
+    "status": "converted_yes"
+  },
+  {
+    "lead_id": "L003",
+    "assigned_by": "E101",
+    "assigned_to": "A202",
+    "assigned_date": "2025-10-02",
+    "status": "converted_no"
+  }
+]

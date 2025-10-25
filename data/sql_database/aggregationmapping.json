@@ -1,0 +1,22 @@
+{
+  "agent_id": {
+    "aggregation_fields": [
+      "total_calls",
+      "answered_calls",
+      "missed_calls",
+      "conversion_rate",
+      "avg_call_duration",
+      "hot_deals_count",
+      "warm_deals_count",
+      "cold_deals_count"
+    ]
+  },
+  "manager_id": {
+    "aggregation_fields": [
+      "total_agents",
+      "total_leads",
+      "leads_converted",
+      "avg_team_conversion_rate"
+    ]
+  }
+}
