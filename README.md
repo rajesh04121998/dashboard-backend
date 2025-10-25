@@ -41,7 +41,7 @@ The warehouse is designed to support **fast aggregations** for agents and manage
 | assigned_by      | STRING        | Manager who assigned the lead |
 | assigned_to      | STRING        | Agent handling the lead |
 | assigned_date    | DATE          | Date of assignment |
-| status           | STRING        | Current status of the lead (`assigned`, `converted_yes`, `converted_no`, `followup_pending`) |
+| status           | STRING        | Current status of the lead (`converted_yes`, `converted_no`, `followup_pending`) |
 | call_duration    | FLOAT         | Duration of the call in seconds |
 | call_status      | STRING        | Status of the call (`answered` or `missed`) |
 | is_hot           | BOOLEAN       | 1 if the lead is hot, otherwise 0 |
