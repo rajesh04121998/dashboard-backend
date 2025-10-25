@@ -5,6 +5,11 @@ The objective of this project is to create **APIs** to fetch information from th
 
 The dashboard will allow selecting **dimensions** (e.g., agent or manager) and **aggregation metrics** (e.g., total leads, average conversion rate, average call duration) to visualize data efficiently.
 
+
+## **Demo**
+
+[Screen-Recording.mp4](../../../Downloads/Screen-Recording.mp4)
+
 ---
 
 ## **Architecture**
@@ -21,6 +26,41 @@ The dashboard will allow selecting **dimensions** (e.g., agent or manager) and *
 - **Streamlit** is used to render the dashboard UI.
 
 ---
+##  **Setup Instructions**
+
+**Backend Setup**
+```
+Create a virtual environment
+python -m venv venv
+
+Activate the virtual environment
+
+#Windows:
+venv\Scripts\activate
+
+#Install dependencies
+
+pip install -r requirements.txt
+
+#Run backend using Docker Compose
+docker-compose up --build
+
+#Access APIs
+FastAPI will be available at: http://127.0.0.1:8000
+```
+
+**Frontend Setup**
+```
+Run Streamlit dashboard
+streamlit run ./dashboard_app.py
+
+Interact with the dashboard
+
+Select dimension (agent or manager)
+Choose metrics to display
+Click Generate Report to view the aggregated results from the backend API
+```
+---
 
 ## **Tools & Technologies**
 - **Python** – Backend API development  
@@ -28,6 +68,7 @@ The dashboard will allow selecting **dimensions** (e.g., agent or manager) and *
 - **SQL / JSON** – Data simulation and querying  
 - **FastAPI** – API framework  
 - **Streamlit** – Dashboard frontend
+- **Postman** – Postman collections available in the Postman collection folder for testing APIs
 
 ---
 
