@@ -7,9 +7,7 @@ The dashboard will allow selecting **dimensions** (e.g., agent or manager) and *
 
 
 ## **Demo**
-
-[Screen-Recording.mp4](../../../Downloads/Screen-Recording.mp4)
-
+[Screen-Recording.mp4](Screen-Recording.mp4)
 ---
 
 ## **Architecture**
