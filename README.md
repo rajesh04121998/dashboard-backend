@@ -53,6 +53,7 @@ The warehouse is designed to support **fast aggregations** for agents and manage
 ---
 
 ## **Project Structure**
+```
 project/
 ├── data/
 │ ├── warehouse/
@@ -64,7 +65,7 @@ project/
 │ └── function_utils.py # Core logic for aggregations
 ├── main.py # FastAPI entrypoint
 └── README.md # Documentation
-
+```
 
 ## **APIs**
 ### **1) /dimension-mapping**
