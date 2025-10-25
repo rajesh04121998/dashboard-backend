@@ -54,21 +54,19 @@ The warehouse is designed to support **fast aggregations** for agents and manage
 
 ## **Project Structure**
 project/
-│
 ├── data/
-│   ├── warehouse/warehouse.csv              # Source data file
-│   └── sql_database/aggregationmapping.json # Defines aggregation fields per dimension
-│
+│ ├── warehouse/
+│ │ └── warehouse.csv # Source data file
+│ └── sql_database/
+│ └── aggregationmapping.json # Defines aggregation fields per dimension
 ├── utils/
-│   ├── file_utils.py                        # Loads JSON mapping
-│   └── function_utils.py                    # Core logic for aggregations
-│
-├── main.py                                  # FastAPI entrypoint
-└── README.md                                # Documentation
-## **APIs**
+│ ├── file_utils.py # Loads JSON mapping
+│ └── function_utils.py # Core logic for aggregations
+├── main.py # FastAPI entrypoint
+└── README.md # Documentation
+
 
 ## **APIs**
-
 ### **1) /dimension-mapping**
 
 **Input Payload:** None
